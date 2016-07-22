@@ -1,0 +1,89 @@
+﻿body {
+	color:#FFE1FF;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 17px;
+	background-color: #C2C2C2;
+}
+
+#main {
+	position: absolute;
+	float: center;
+	width: 500px;
+	top: 50%;
+	left: 50%;
+	margin-top: -300px;
+	margin-left: -255px;
+	border: 2px solid #CCCCCC;
+	background: #4B0082;
+	border-radius: 15px;
+}
+
+#rules {
+	position: absolute;
+	float: left;
+	width: 500px;
+	height: 420px;
+	top: 50%;
+	left: 50%;
+	margin-top: -100px;
+	margin-left: -255px;
+	border: 2px solid #CCCCCC;
+	background: #4B0082;
+}
+
+#block_pad {
+	padding: 5px 5px 5px 5px;
+	display: table;
+}
+
+#login_field, #cost_field, #coupon_field  {
+	left: 40px;
+	top: 10px;
+	height: 40px;
+	display: table;
+}
+
+#main h1 {
+	color: #FFE1FF;
+	font-size: 24px;
+	font-weight: 600;
+	text-align: center;
+}
+
+#login, #cost, #coupon {
+	width: 250px;
+	height: 30px;
+	margin-left: 5px;
+	padding: 0px 2px;
+}
+
+label {
+	float: left;
+	width: 120px;
+	text-align: right;
+	position: relative;
+	margin-top: 5px;
+}
+
+#button_field {
+	display: table;
+	padding: 10px;
+	float: right;
+	margin-right: 100px;
+}
+
+#check{
+	width: 250px;
+	height: 71px;
+}
+
+#content {
+	position: relative;
+	float: left;
+	width: 480px;
+	height: 40px;
+	top: -10px;
+	text-align: center;
+	vertical-align:middle;
+	line-height: 30px;
+}
